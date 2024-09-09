@@ -15,16 +15,36 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
-        let searchNC = UINavigationController(rootViewController: SearchViewController())
-        let favoritesListNC = UINavigationController(rootViewController: FavoritesListViewController())
-        
-        let tabBar = UITabBarController()
-        tabBar.viewControllers = [searchNC, favoritesListNC]
-        
+                
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        window?.rootViewController = tabBar
+        window?.rootViewController = createTabBar()
         window?.makeKeyAndVisible()
+    }
+    
+    func createSearchNavigationController() -> UINavigationController {
+        let searchVC = SearchViewController()
+        searchVC.title = "Search"
+        searchVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
+        
+        return UINavigationController(rootViewController: searchVC)
+    }
+    
+    func createFavoritesListNavigationController() -> UINavigationController {
+        let favoritesListVC = FavoritesListViewController()
+        favoritesListVC.title = "Favorites"
+        favoritesListVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
+        
+        return UINavigationController(rootViewController: favoritesListVC)
+    }
+    
+    func createTabBar() -> UITabBarController {
+        let tabBar = UITabBarController()
+        UITabBar.appearance().tintColor = .systemGreen
+        
+        tabBar.viewControllers = [createSearchNavigationController(), createFavoritesListNavigationController()]
+        
+        return tabBar
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
