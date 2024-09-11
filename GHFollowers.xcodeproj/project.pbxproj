@@ -16,6 +16,7 @@
 		67B607902C8FAD270066FBB7 /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B6078F2C8FAD270066FBB7 /* FavoritesListViewController.swift */; };
 		67B607922C8FC8C90066FBB7 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B607912C8FC8C90066FBB7 /* GFButton.swift */; };
 		67B607942C8FCBCA0066FBB7 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B607932C8FCBCA0066FBB7 /* GFTextField.swift */; };
+		67D8D6CA2C92436300F5CF61 /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8D6C92C92436300F5CF61 /* GFTitleLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		67B6078F2C8FAD270066FBB7 /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
 		67B607912C8FC8C90066FBB7 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		67B607932C8FCBCA0066FBB7 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		67D8D6C92C92436300F5CF61 /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				67B6078F2C8FAD270066FBB7 /* FavoritesListViewController.swift */,
 				67B607932C8FCBCA0066FBB7 /* GFTextField.swift */,
 				678A5F852C91240E00DCBBB9 /* FollowersListViewController.swift */,
+				67D8D6C92C92436300F5CF61 /* GFTitleLabel.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				67B6078E2C8FACC90066FBB7 /* SearchViewController.swift in Sources */,
 				67B607922C8FC8C90066FBB7 /* GFButton.swift in Sources */,
 				678A5F862C91240E00DCBBB9 /* FollowersListViewController.swift in Sources */,
+				67D8D6CA2C92436300F5CF61 /* GFTitleLabel.swift in Sources */,
 				67B6077A2C8FA5DE0066FBB7 /* AppDelegate.swift in Sources */,
 				67B607902C8FAD270066FBB7 /* FavoritesListViewController.swift in Sources */,
 				67B6077C2C8FA5DE0066FBB7 /* SceneDelegate.swift in Sources */,
