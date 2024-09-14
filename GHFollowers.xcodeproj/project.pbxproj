@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6783EF522C950BC600653594 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6783EF512C950BC600653594 /* ErrorMessage.swift */; };
 		678A5F862C91240E00DCBBB9 /* FollowersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678A5F852C91240E00DCBBB9 /* FollowersListViewController.swift */; };
 		67B6077A2C8FA5DE0066FBB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B607792C8FA5DE0066FBB7 /* AppDelegate.swift */; };
 		67B6077C2C8FA5DE0066FBB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B6077B2C8FA5DE0066FBB7 /* SceneDelegate.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6783EF512C950BC600653594 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		678A5F852C91240E00DCBBB9 /* FollowersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersListViewController.swift; sourceTree = "<group>"; };
 		67B607762C8FA5DE0066FBB7 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B607792C8FA5DE0066FBB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6783EF502C950BAE00653594 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6783EF512C950BC600653594 /* ErrorMessage.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		67B6076D2C8FA5DE0066FBB7 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +86,7 @@
 		67B607782C8FA5DE0066FBB7 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				6783EF502C950BAE00653594 /* Utils */,
 				67D01FF12C9373E000E2A9ED /* Managers */,
 				67B607792C8FA5DE0066FBB7 /* AppDelegate.swift */,
 				67B6077B2C8FA5DE0066FBB7 /* SceneDelegate.swift */,
@@ -214,6 +225,7 @@
 				67D8D6D02C924D6A00F5CF61 /* UIViewController+Ext.swift in Sources */,
 				67B607922C8FC8C90066FBB7 /* GFButton.swift in Sources */,
 				678A5F862C91240E00DCBBB9 /* FollowersListViewController.swift in Sources */,
+				6783EF522C950BC600653594 /* ErrorMessage.swift in Sources */,
 				67D8D6CC2C92450500F5CF61 /* GFBodyLabel.swift in Sources */,
 				67D01FEE2C936D0500E2A9ED /* Follower.swift in Sources */,
 				67D8D6CA2C92436300F5CF61 /* GFTitleLabel.swift in Sources */,
